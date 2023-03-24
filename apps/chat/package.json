@@ -1,0 +1,24 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "github:nodeutils/defaults-deep",
+    "@libp2p/mplex": "^7.1.2",
+    "@libp2p/peer-id-factory": "^2.0.3",
+    "@libp2p/tcp": "^6.1.4",
+    "@libp2p/websockets": "^5.0.7",
+    "@multiformats/multiaddr": "^12.1.0",
+    "@nodeutils/defaults-deep": "^1.1.0"
+  }
+}
