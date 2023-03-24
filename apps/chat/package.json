@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dailer": "ts-node-dev ./src/dailer.ts",
+    "listener": "ts-node-dev ./src/listener.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,10 @@
     "@libp2p/tcp": "^6.1.4",
     "@libp2p/websockets": "^5.0.7",
     "@multiformats/multiaddr": "^12.1.0",
-    "@nodeutils/defaults-deep": "^1.1.0"
+    "@nodeutils/defaults-deep": "^1.1.0",
+    "it-length-prefixed": "^8.0.4",
+    "it-map": "^2.0.1",
+    "it-pipe": "^2.0.5",
+    "uint8arrays": "^4.0.3"
   }
 }

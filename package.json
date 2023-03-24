@@ -16,6 +16,7 @@
     "@ianvs/prettier-plugin-sort-imports": "^3.7.1",
     "eslint-config-custom": "workspace:*",
     "prettier": "^2.8.7",
+    "ts-node-dev": "^2.0.0",
     "turbo": "latest"
   },
   "engines": {
